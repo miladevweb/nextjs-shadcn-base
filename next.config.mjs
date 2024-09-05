@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        // In Production, It must be changed to your domain
+        hostname: '*',
+        protocol: 'https',
+      },
+    ],
+  },
+}
 
-export default nextConfig;
+export default nextConfig

@@ -87,9 +87,9 @@ body {
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground overflow-x-clip min-h-screen;
   }
-  
+
   picture {
     @apply block;
   }

@@ -87,7 +87,7 @@ body {
   }
 
   body {
-    @apply bg-background text-foreground overflow-x-clip min-h-screen;
+    @apply overflow-x-clip min-h-screen;
   }
 
   picture {
@@ -95,6 +95,6 @@ body {
   }
 
   img {
-    @apply size-full;
+    @apply size-full object-cover;
   }
 }
